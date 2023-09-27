@@ -2,7 +2,7 @@ terraform {
   required_providers {
     snowflake = {
       source  = "apr4th/sfguide-terraform-sample"
-      version = "~> 0.01"
+      version = "~> 0.68"
     }
   }
 }
