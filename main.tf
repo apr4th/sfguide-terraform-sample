@@ -13,7 +13,6 @@ provider "snowflake" {
   username = "tf-snow"
   alias    = "user"
   role     = "ACCOUNTADMIN"
-  password = var.SNOWFLAKE_PASSWORD
 }
 
 resource "snowflake_database" "db" {
