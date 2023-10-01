@@ -8,7 +8,12 @@ terraform {
 }
 
 provider "snowflake" {
-  role = "ACCOUNTADMIN"
+  account  = "HPB82948"
+  region   = "AWS_US_EAST_1"
+  username = "tf-snow"
+  alias    = "user"
+  role     = "ACCOUNTADMIN"
+  password = var.SNOWFLAKE_PASSWORD
 }
 
 resource "snowflake_database" "db" {
