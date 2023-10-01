@@ -10,8 +10,6 @@ terraform {
 provider "snowflake" {
   account  = "HPB82948"
   region   = "AWS_US_EAST_1"
-  username = "tf-snow"
-  alias    = "user"
   role     = "ACCOUNTADMIN"
 }
 
