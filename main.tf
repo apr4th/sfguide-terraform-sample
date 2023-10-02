@@ -9,7 +9,7 @@ terraform {
 
 provider "snowflake" {
   account  = "WRVZDNP-HPB82948"
-  region   = "AWS_US_EAST_1"
+  region   = "us-east-1"
   role     = "ACCOUNTADMIN"
 }
 
